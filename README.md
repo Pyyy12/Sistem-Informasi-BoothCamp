@@ -1,58 +1,320 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🚀 JoCamp — Platform Bootcamp Online
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <strong>Belajar Skill Digital, Bangun Masa Depan Bersama JoCamp!</strong>
 </p>
 
-## About Laravel
+<p align="center">
+  Platform bootcamp online berbasis Laravel 11 yang membantu peserta menemukan program pelatihan, mendaftar bootcamp, dan memantau progres belajar dalam satu platform.
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-11-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel 11">
+  <img src="https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5">
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 📖 Tentang JoCamp
 
-## Learning Laravel
+**JoCamp** adalah aplikasi web platform bootcamp online yang dikembangkan menggunakan Laravel 11 dan MySQL. Aplikasi ini dirancang dengan tampilan modern, responsif, dan mudah digunakan oleh peserta maupun administrator.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+JoCamp menyediakan katalog program bootcamp, informasi detail pelatihan, fitur pendaftaran peserta, serta dashboard untuk membantu pengelolaan program dan aktivitas peserta.
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Proyek ini juga dapat dikembangkan lebih lanjut menjadi platform e-learning dengan pembayaran otomatis, materi video, kuis, dan sertifikat digital.
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+## ✨ Fitur Utama
 
-## Agentic Development
+### 👨‍🎓 Fitur Peserta
+- Registrasi akun dan login.
+- Melihat katalog program bootcamp.
+- Melihat detail program, harga, durasi, dan informasi mentor.
+- Mendaftar program bootcamp.
+- Melihat daftar pendaftaran bootcamp.
+- Memantau status pendaftaran dan progres belajar.
+- Dashboard peserta yang mudah digunakan.
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+### 🛠️ Fitur Administrator
+- Dashboard admin.
+- Mengelola data program bootcamp.
+- Menambah, mengedit, dan menghapus program.
+- Mengelola kategori bootcamp.
+- Melihat dan mengelola pendaftaran peserta.
+- Memperbarui status pendaftaran dan pembayaran.
+
+### 🎨 Antarmuka Pengguna
+- Desain modern dan profesional.
+- Tampilan responsif untuk desktop, tablet, dan smartphone.
+- Navigasi sederhana dan intuitif.
+- Halaman landing page yang informatif.
+- Komponen antarmuka yang konsisten.
+
+## 🧰 Teknologi yang Digunakan
+
+| Teknologi | Kegunaan |
+|---|---|
+| Laravel 11 | Backend dan framework aplikasi |
+| PHP 8.2+ | Bahasa pemrograman backend |
+| MySQL | Database relasional |
+| Blade Template | Sistem templating Laravel |
+| Bootstrap 5 | Framework antarmuka |
+| HTML5 | Struktur halaman |
+| CSS3 | Styling dan desain responsif |
+| JavaScript | Interaksi antarmuka |
+| Vite | Pengelolaan aset frontend |
+| Composer | Dependency management PHP |
+| NPM | Dependency management frontend |
+
+## 📋 Persyaratan Sistem
+
+Pastikan perangkat kamu sudah memiliki:
+
+- PHP 8.2 atau versi yang kompatibel dengan Laravel 11.
+- Composer.
+- MySQL atau MariaDB yang kompatibel.
+- Node.js dan NPM.
+- Git.
+- Web browser modern.
+
+## 🚀 Instalasi dan Menjalankan Project
+
+### 1. Clone repository
 
 ```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
+git clone https://github.com/USERNAME/JoCamp.git
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+Masuk ke direktori project:
 
-## Contributing
+```bash
+cd JoCamp
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+> Ganti `USERNAME` dengan username GitHub pemilik repository.
 
-## Code of Conduct
+### 2. Install dependency Laravel
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+```bash
+composer install
+```
 
-## Security Vulnerabilities
+### 3. Buat file environment
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Salin file `.env.example` menjadi `.env`.
 
-## License
+Windows Command Prompt:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+copy .env.example .env
+```
+
+Linux atau macOS:
+
+```bash
+cp .env.example .env
+```
+
+### 4. Generate application key
+
+```bash
+php artisan key:generate
+```
+
+### 5. Konfigurasi database
+
+Buat database MySQL dengan nama `jocamp`, kemudian sesuaikan konfigurasi berikut pada file `.env`.
+
+```env
+APP_NAME=JoCamp
+APP_ENV=local
+APP_DEBUG=true
+APP_URL=http://127.0.0.1:8000
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=jocamp
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+Sesuaikan username dan password database dengan konfigurasi MySQL pada perangkat kamu.
+
+### 6. Jalankan migration dan seeder
+
+```bash
+php artisan migrate --seed
+```
+
+Perintah tersebut membuat tabel database dan menjalankan seeder yang tersedia pada project.
+
+### 7. Install dependency frontend
+
+```bash
+npm install
+```
+
+Jalankan Vite untuk pengembangan frontend:
+
+```bash
+npm run dev
+```
+
+### 8. Jalankan aplikasi
+
+Buka terminal baru, kemudian jalankan:
+
+```bash
+php artisan serve
+```
+
+Akses aplikasi melalui browser:
+
+**http://127.0.0.1:8000**
+
+## 📂 Struktur Direktori
+
+```text
+JoCamp/
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   └── Middleware/
+│   └── Models/
+├── bootstrap/
+├── config/
+├── database/
+│   ├── factories/
+│   ├── migrations/
+│   └── seeders/
+├── public/
+│   └── css/
+├── resources/
+│   ├── css/
+│   ├── js/
+│   └── views/
+│       ├── layouts/
+│       ├── auth/
+│       ├── bootcamps/
+│       ├── enrollments/
+│       └── admin/
+├── routes/
+│   └── web.php
+├── tests/
+├── .env.example
+├── artisan
+├── composer.json
+├── package.json
+└── vite.config.js
+```
+
+Struktur di atas merupakan gambaran umum. Nama dan isi direktori mengikuti file yang tersedia pada versi repository kamu.
+
+## 🗄️ Database
+
+JoCamp menggunakan database MySQL untuk menyimpan informasi pengguna, program bootcamp, kategori, dan pendaftaran.
+
+| Tabel | Deskripsi |
+|---|---|
+| `users` | Menyimpan data akun peserta dan admin |
+| `categories` | Menyimpan kategori program |
+| `bootcamps` | Menyimpan informasi program bootcamp |
+| `enrollments` | Menyimpan data pendaftaran peserta |
+
+Relasi antartabel dikelola menggunakan Eloquent ORM Laravel.
+
+## 🛣️ Halaman Aplikasi
+
+Berikut contoh halaman yang disediakan dalam rancangan aplikasi JoCamp.
+
+| URL | Fungsi |
+|---|---|
+| `/` | Landing page |
+| `/bootcamp` | Katalog bootcamp |
+| `/bootcamp/{slug}` | Detail bootcamp |
+| `/register` | Registrasi peserta |
+| `/login` | Login |
+| `/dashboard` | Dashboard pengguna |
+| `/pendaftaran-saya` | Daftar pendaftaran peserta |
+| `/admin` | Dashboard administrator |
+| `/admin/bootcamps` | Pengelolaan bootcamp |
+| `/admin/enrollments` | Pengelolaan pendaftaran |
+
+Daftar URL dapat berbeda sesuai konfigurasi route pada versi aplikasi yang digunakan.
+
+## 🔐 Keamanan
+
+- Password pengguna disimpan menggunakan hashing Laravel.
+- Validasi input dilakukan melalui mekanisme validasi Laravel.
+- Akses halaman dibatasi berdasarkan autentikasi dan hak akses.
+- File `.env` tidak boleh diunggah ke repository publik.
+- Gunakan konfigurasi produksi yang aman sebelum deployment.
+
+**Catatan:** Pastikan middleware, otorisasi admin, dan validasi seluruh endpoint telah diuji sebelum aplikasi digunakan secara publik.
+
+## 💳 Pengembangan Selanjutnya
+
+Fitur berikut dapat menjadi rencana pengembangan JoCamp:
+
+- [ ] Integrasi payment gateway Midtrans atau Xendit.
+- [ ] Pembayaran otomatis dan verifikasi transaksi.
+- [ ] Materi pembelajaran berbasis video.
+- [ ] Kuis dan evaluasi peserta.
+- [ ] Sertifikat digital setelah menyelesaikan bootcamp.
+- [ ] Notifikasi email.
+- [ ] Rating dan ulasan program.
+- [ ] Laporan statistik pendaftaran dan pendapatan.
+
+## 🧪 Testing
+
+Untuk menjalankan pengujian aplikasi Laravel:
+
+```bash
+php artisan test
+```
+
+Pastikan konfigurasi database testing dan environment sudah sesuai sebelum menjalankan pengujian.
+
+## 🤝 Kontribusi
+
+Kontribusi untuk pengembangan JoCamp sangat terbuka.
+
+1. Fork repository ini.
+2. Buat branch baru:
+
+   ```bash
+   git checkout -b feature/nama-fitur
+   ```
+
+3. Simpan perubahan dan buat commit:
+
+   ```bash
+   git add .
+   git commit -m "Add: fitur baru JoCamp"
+   ```
+
+4. Push branch ke GitHub:
+
+   ```bash
+   git push origin feature/nama-fitur
+   ```
+
+5. Buat Pull Request untuk meninjau perubahan.
+
+## 📄 Lisensi
+
+Proyek ini dapat menggunakan lisensi MIT. Pastikan file `LICENSE` tersedia di repository dan lisensi tersebut memang sesuai dengan pilihan pemilik proyek.
+
+## 👨‍💻 Developer
+
+**JoCamp — Online Bootcamp Platform**
+
+Dikembangkan menggunakan Laravel 11, MySQL, Blade, dan Bootstrap 5.
+
+---
+
+<p align="center">
+  <strong>JoCamp — Learn Today, Build Tomorrow. 🚀</strong>
+</p>
